@@ -1,0 +1,56 @@
+body{
+background:black;
+}
+#banner{
+width:60%;
+height:10%;
+background:black;
+color:white;
+margin-left:130px;
+font-size:4em;
+padding-left:1%;
+padding-bottom:1.5%;
+overflow:hidden;
+border-radius: 15px;
+}
+#wrap{
+width:80%;
+height:95%;
+background:white;
+margin-left:130px;
+border-radius: 15px;
+}
+.links{
+border-radius: 15px;
+background:#697082;
+font-size:1.2em;
+color:#E5E1D7;
+padding:.5%;
+margin-left:80px;
+}
+
+#inside{
+overflow:hidden;
+}
+ul{
+position:relative;
+left:30px;
+height:auto;
+}
+
+ul li:hover span{
+position:absolute;
+top:5;right:190;
+}
+
+li{
+list-style-type:none;
+}
+ul li span img{
+display:none;
+}
+ul li:hover span img{
+display:inline;
+position:absolute;
+right:10px;
+}

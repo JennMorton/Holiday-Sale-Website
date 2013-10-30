@@ -1,0 +1,72 @@
+body{
+background-size:cover;
+background: url(jamcup2.jpg) no-repeat;
+opacity: .96;
+}
+
+#banner{
+width:60%;
+height:10%;
+background:#336633;;
+color:white;
+margin-left:130px;
+padding-left:30px;
+padding-bottom:1.5%;
+font-size:4em;
+border-radius: 15px;
+}
+.links{
+border-radius: 15px;
+background:#697082;
+font-size:1.2em;
+color:#E5E1D7;
+padding:.5%;
+margin-left:80px;
+}
+
+#wrap{
+width:80%;
+height:90%;
+margin-left:130px;
+background:white;
+border-radius: 15px;
+}
+#inside{
+overflow:auto;
+font-size:1.1em;
+padding-left:5%;
+}
+.W{
+margin-top:2%;
+color:#336633;
+text-align:left;
+font-size: 1.3em;
+font-family:geneva;
+width:90px;
+line-height:100%;
+font-weight:bold;
+float:left;
+}
+.info{
+clear:both;
+width:400px;
+}
+#map{
+color:#004c99;
+}
+.event{
+font-weight:bold;
+color:#660000 ;
+float:left;
+text-align:left;
+padding-left:5%;
+padding-right:5%;
+font-family:Verdana, Geneva, sans-serif;
+}
+#orni{
+position:relative;
+bottom:300px;
+left:410px;
+opacity: .86;
+}
+

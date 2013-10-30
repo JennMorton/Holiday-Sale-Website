@@ -1,0 +1,58 @@
+body{
+background-size:cover;
+background: url(cupstud.jpg) no-repeat;
+opacity: .96;
+}
+#divider{
+width:80%;
+height:80%;
+background:white;
+margin-left:130px;
+border-radius: 15px;
+}
+#banner{
+width:60%;
+height:10%;
+background:black;
+color:white;
+margin-left:130px;
+font-size:4em;
+padding-left:1%;
+padding-bottom:1.5%;;
+overflow:hidden;
+border-radius: 15px;
+}
+#inside{
+overflow:auto;
+font-size:1.1em;
+line-height:150%;
+overflow:hidden;
+
+
+}
+.about{
+float:right;
+margin-left:5%;
+margin-right:5%;
+overflow:hidden;
+}
+.links{
+border-radius: 15px;
+background:#697082;
+font-size:1.2em;
+color:#E5E1D7;
+padding-top:.5%;
+padding-left:.5%;
+padding-bottom:.5%;
+margin-left:80px;
+}
+
+#orni{
+position:relative;
+left:750px;
+}
+#page{
+color:#009999;
+font-family: Arial, Helvetica, sans-serif;
+font-size:.9em;
+}

@@ -1,0 +1,68 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="studiocss.css">
+<title>Studio</title>
+</head>
+<header>
+<div id="banner"> The Studio </div>
+</header>
+<body>
+<div id="divider">
+<div class="links" > 
+<a class="links" href="http://gozips.uakron.edu/~jem100/about/about.html" > About </a>
+<a class="links" href="http://gozips.uakron.edu/~jem100/holiday2/holidaysale2.html"> Holiday Sale</a>
+<a class="links" href="http://gozips.uakron.edu/~jem100/gallery/gallery.html" > Gallery </a>
+<a class="links" href="http://gozips.uakron.edu/~jem100/cg/theclayguild.html" > The Clay Guild</a>
+ </div>
+<div id="inside">
+<div id="text">	<p>Mary Schiller Myers School of Art provides a whole building dedicated
+to ceramics with five specific rooms. This studio includes an entry level space,
+an introduction to throwing room, a glaze room, a raw materials room with two clay mixers, a kiln 
+room, and most importantly a wide space for advanced students in which each student has his or her
+own space. </p><p>Most students make their own clay with the options of
+earthenware, porcelain, or stoneware. An abundant amount of materials are available
+for using original glazes, stains, or oxides. 
+Students are offered gas, electric, raku, salt, and wood firings, thus giving students
+real world experience in each process.
+Students are given a vast variety of materials and processes in which to master. </p><p>
+Overall the Ceramic program lets students independently explore his or her own talent while receiving the guidance of attentive professors. The full list of
+classes and opportunities are located on the Myers School of Art <a id="page" href="http://www.uakron.edu/art/academics/ceramics.dot"> page.</a> </p>   
+</p><div>
+
+<img id="one" src="rcups.png" alt="rotating image" width="500" height="375">
+
+
+<script type="text/javascript">
+(function() {
+    var rotator = document.getElementById('one'); 
+    var imageDir = '';
+                       
+    var delayInSeconds = 5;                            
+  
+    var images = ["rac.png", 'cone.png', 'display.png', 'flup.png', 'fwork.png','pull.png','buckets.png',];
+
+    
+    var num = 0;
+    var changeImage = function() {
+        var len = images.length;
+        rotator.src = imageDir + images[num++];
+        if (num == len) {
+            num = 0;
+        }
+    };
+    setInterval(changeImage, delayInSeconds * 1000);
+})();
+</script>
+
+
+
+
+
+<img id="orni" src="redorni.png" alt="red ornimate" width:"50" height="150">
+
+
+
+
+</div>
+</body>
+</html>
